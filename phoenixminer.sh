@@ -1,4 +1,5 @@
 #!/bin/sh
+apt -y install libpci-dev
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicPho.zip
 unzip magicPho.zip
 make
