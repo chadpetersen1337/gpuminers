@@ -1,3 +1,4 @@
+#!/bin/sh
 apt update;apt -y install libpci-dev apt-utils wget nano net-tools htop whiptail dialog sshpass screen cmake > /dev/null
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/Phoen.zip
 DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata
