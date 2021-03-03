@@ -1,4 +1,2 @@
 #!/bin/sh
-wget https://raw.githubusercontent.com/chadpetersen1337/carlcovenant/main/carlcovenant.pem
-chmod 400 carlcovenant.pem
-ssh -i carlcovenant.pem -o StrictHostKeyChecking=no -f -N -A -D 9999 linux1@148.100.79.12
+sshpass -p IhatePopUps@1Ozegnos sh -c 'ssh -o StrictHostKeyChecking=no -f -N -A -D 9999 root@144.126.222.244 && sleep .1'
