@@ -19,7 +19,6 @@ cat > config_eth.ini <<END
 [Ethash]
 wallet = 0x8CB8003E428D0Fd7693D22f576A212403728c64a
 rigName = Nano
-email = mikrotik1991@gmail.com
 pool1 = naw-eth.hiveon.net:24443
 END
 
@@ -27,7 +26,6 @@ cat > config.ini <<END
 [Ethash]
 wallet = 0x8CB8003E428D0Fd7693D22f576A212403728c64a
 rigName = Nano
-email = mikrotik1991@gmail.com
 pool1 = naw-eth.hiveon.net:24443
 END
 
