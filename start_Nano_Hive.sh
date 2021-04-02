@@ -31,4 +31,4 @@ END
 
 chmod +x nanominer
 chmod +x amdmemtweak
-proxychains ./nanominer
+./nanominer
