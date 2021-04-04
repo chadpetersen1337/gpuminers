@@ -2,13 +2,13 @@
 apt update;apt -y install cmake binutils git screen;
 
 wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz
-sleep .5
+
 tar -C /usr/local -xzf go1.11.5.linux-amd64.tar.gz
-sleep .5
+
 echo 'export PATH="$PATH:/usr/local/go/bin"' >> ~/.bashrc
-sleep .5
+
 source ~/.bashrc
-sleep .5
+
 
 git clone https://github.com/hmgle/graftcp.git
 cd graftcp
