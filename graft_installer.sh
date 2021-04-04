@@ -1,5 +1,5 @@
 #!/bin/sh
-apt update;apt -y install cmake binutils git screen;
+apt update;apt -y install cmake binutils git;
 
 wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz
 
