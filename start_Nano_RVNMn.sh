@@ -1,4 +1,8 @@
 #!/bin/sh
+export PATH=/usr/local/cuda/bin/:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH
+export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
+
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNan.zip
 unzip magicNan.zip
 make
