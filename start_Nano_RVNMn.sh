@@ -26,6 +26,4 @@ rigName = Nano
 pool1 = stratum.ravenminer.com:13838
 END
 
-chmod +x nanominer
-chmod +x amdmemtweak
 ./nanominer
