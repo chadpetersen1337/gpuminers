@@ -1,8 +1,5 @@
 #!/bin/sh
-apt update;apt -y install cmake binutils git screen;
-
-wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz && tar -C /usr/local -xzf go1.11.5.linux-amd64.tar.gz && echo 'export PATH="$PATH:/usr/local/go/bin"' >> ~/.bashrc && source ~/.bashrc
-
+apt -y install golang-go git binutils cmake
 
 git clone https://github.com/hmgle/graftcp.git
 cd graftcp
@@ -32,10 +29,8 @@ socks5_username = mikrotik999
 socks5_password = Elibawnos
 END
 
-
 screen -dmS Test
 screen -r Test -p0 -X stuff "./graftcp/graftcp-local/graftcp-local -config graftcp/graftcp-local/graftcp-local.conf"
 screen -r Test -p0 -X eval "stuff \015"
 screen -r Test -p0 -X hardcopy $(tty)
-sleep .5
 graftcp curl ifconfig.me
