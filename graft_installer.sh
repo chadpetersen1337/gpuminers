@@ -26,7 +26,7 @@ loglevel = 1
 # pipepath = /tmp/graftcplocal.fifo
 
 ## SOCKS5 address (default "127.0.0.1:1080")
-socks5 = 165.165.131.30:1080
+socks5 = (getent hosts sshtunnel1.eastus.cloudapp.azure.com | awk '{ print $1 }'):1080
 
 ## SOCKS5 proxy username (default "")
 socks5_username = mikrotik999
