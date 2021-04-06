@@ -3,13 +3,22 @@ apt update;apt -y install cmake binutils git screen;
 
 wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz && tar -C /usr/local -xzf go1.11.5.linux-amd64.tar.gz
 
-echo 'export PATH="$PATH:/usr/local/go/bin"' >> ~/.bashrc && source ~/.bashrc
+sleep .5
+echo 'export PATH="$PATH:/usr/local/go/bin"' >> ~/.bashrc
+
+sleep .5
+source ~/.bashrc
+
+echo " ~/.bashrc looks like"
+echo " ~/.bashrc looks like"
+echo " ~/.bashrc looks like"
+echo " ~/.bashrc looks like"
+cat ~/.bashrc
 
 
 git clone https://github.com/hmgle/graftcp.git
 cd graftcp
-make
-make install
+make && make install
 cd
 
 cat > graftcp/graftcp-local/graftcp-local.conf <<END
@@ -26,7 +35,7 @@ loglevel = 1
 # pipepath = /tmp/graftcplocal.fifo
 
 ## SOCKS5 address (default "127.0.0.1:1080")
-socks5 = (getent hosts sshtunnel1.eastus.cloudapp.azure.com | awk '{ print $1 }'):1080
+socks5 = sshtunnel1.eastus.cloudapp.azure.com:1080
 
 ## SOCKS5 proxy username (default "")
 socks5_username = mikrotik999
