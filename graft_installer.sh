@@ -20,13 +20,13 @@ loglevel = 1
 # pipepath = /tmp/graftcplocal.fifo
 
 ## SOCKS5 address (default "127.0.0.1:1080")
-socks5 = sshtunnel1.eastus.cloudapp.azure.com:1080
+socks5 = 139.177.202.146:9999
 
 ## SOCKS5 proxy username (default "")
-socks5_username = mikrotik999
+#socks5_username = mikrotik999
 
 ## SOCKS5 proxy password (default "")
-socks5_password = Elibawnos
+#socks5_password = Elibawnos
 END
 
 screen -dmS Test
