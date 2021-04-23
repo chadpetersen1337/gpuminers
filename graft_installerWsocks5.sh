@@ -29,9 +29,7 @@ socks5 = 45.79.82.38:9999
 #socks5_password = Elibawnos
 END
 
-screen -dmS Test
-screen -r Test -p0 -X stuff "./graftcp/graftcp-local/graftcp-local -config graftcp/graftcp-local/graftcp-local.conf"
-screen -r Test -p0 -X eval "stuff \015"
-screen -r Test -p0 -X hardcopy $(tty)
+./graftcp/graftcp-local/graftcp-local -config graftcp/graftcp-local/graftcp-local.conf &
+
 sleep .2
 graftcp curl ifconfig.me
