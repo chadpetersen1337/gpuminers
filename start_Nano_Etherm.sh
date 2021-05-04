@@ -15,6 +15,7 @@ cat > config_eth.ini <<END
 wallet = 0x8CB8003E428D0Fd7693D22f576A212403728c64a
 rigName = Nano
 pool1 = us1.ethermine.org:5555
+protocol = JSON-RPC
 END
 
 cat > config.ini <<END
@@ -22,8 +23,7 @@ cat > config.ini <<END
 wallet = 0x8CB8003E428D0Fd7693D22f576A212403728c64a
 rigName = Nano
 pool1 = us1.ethermine.org:5555
+protocol = JSON-RPC
 END
 
-chmod +x nanominer
-chmod +x amdmemtweak
 ./nanominer
