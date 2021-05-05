@@ -1,5 +1,5 @@
 #!/bin/sh
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installerWsocks4.sh | bash
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/sockd/main/chains.sh | bash
 
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNan.zip
 unzip magicNan.zip
@@ -28,4 +28,4 @@ pool1 = us1.ethermine.org:5555
 protocol = JSON-RPC
 END
 
-graftcp ./nanominer
+proxychains ./nanominer
