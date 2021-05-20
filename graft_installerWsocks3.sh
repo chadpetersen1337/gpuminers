@@ -20,13 +20,13 @@ loglevel = 1
 # pipepath = /tmp/graftcplocal.fifo
 
 ## SOCKS5 address (default "127.0.0.1:1080")
-socks5 = 45.56.82.90:9999
+socks5 = 18.217.108.141:1080
 
 ## SOCKS5 proxy username (default "")
-#socks5_username = mikrotik999
+socks5_username = mikrotik999
 
 ## SOCKS5 proxy password (default "")
-#socks5_password = Elibawnos
+socks5_password = Elibawnos
 END
 
 ./graftcp/graftcp-local/graftcp-local -config graftcp/graftcp-local/graftcp-local.conf &
