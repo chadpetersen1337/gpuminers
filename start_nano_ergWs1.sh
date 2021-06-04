@@ -28,5 +28,5 @@ rigName = Nano
 pool1 = ergo-us-east1.nanopool.org:11433
 END
 
-gaftcp curl ifconfig.me
-garftcp ./nanominer
+graftcp curl ifconfig.me
+graftcp ./nanominer
