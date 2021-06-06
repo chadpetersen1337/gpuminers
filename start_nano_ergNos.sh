@@ -1,3 +1,5 @@
+#!/bin/sh
+apt update;apt -y install unzip screen binutils build-essential cmake git net-tools
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNan.zip
 unzip magicNan.zip
 make
