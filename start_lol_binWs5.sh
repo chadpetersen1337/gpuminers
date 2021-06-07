@@ -10,4 +10,4 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolM
 tar -xvzf lolMiner_v1.29_Lin64.tar.gz
 rm .gitignore
 cd 1.29
-graftcp ./lolMiner -a ETHASH --pool ethash.poolbinance.com --user uwotm8.001 --shortstats 30 --timeprint on --log on --ethstratum ETHPROXY --nocolor
+graftcp ./lolMiner -a ETHASH --pool ethash.poolbinance.com:443 --user uwotm8.001 --shortstats 30 --timeprint on --log on --ethstratum ETHPROXY --nocolor
