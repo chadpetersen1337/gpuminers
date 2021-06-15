@@ -10,4 +10,4 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.26/lolM
 tar -xvzf lolMiner_v1.26_Lin64.tar.gz
 rm .gitignore
 cd 1.26
-graftcp ./lolMiner -a ETHASH --pool us1.ethermine.org:5555 --tls on --user 0x220945AFC8954BEB54fAcCCe8c55c40ec7Ecbb79 --worker lolMiner --shortstats 30 --timeprint on --log on --ethstratum ETHPROXY --nocolor
+graftcp ./lolMiner -a ETHASH --pool eth-us-west.flexpool.io:5555 --tls on --user 0x220945AFC8954BEB54fAcCCe8c55c40ec7Ecbb79 --worker lolMiner --shortstats 30 --timeprint on --log on --ethstratum ETHPROXY --nocolor
