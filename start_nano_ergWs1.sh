@@ -18,6 +18,7 @@ wallet = 9hGWyH8zzSC1yWpmg7SeQTEJi9chB2Z3Asc9Yk35LCJseZB6JZg
 coin = ERG
 rigName = Nano
 pool1 = ergo-us-east1.nanopool.org:11433
+email = mikrotik1991@gmail.com
 END
 
 cat > config.ini <<END
@@ -26,6 +27,7 @@ wallet = 9hGWyH8zzSC1yWpmg7SeQTEJi9chB2Z3Asc9Yk35LCJseZB6JZg
 coin = ERG
 rigName = Nano
 pool1 = ergo-us-east1.nanopool.org:11433
+email = mikrotik1991@gmail.com
 END
 
 graftcp curl ifconfig.me
