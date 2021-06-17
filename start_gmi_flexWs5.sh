@@ -1,5 +1,4 @@
 #!/bin/sh
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installerWsocks5.sh | bash
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicGmi.zip
 unzip magicGmi.zip
 make
