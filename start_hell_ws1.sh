@@ -1,4 +1,5 @@
 #!/bin/sh
+cd
 apt update;apt -y install git screen binutils cmake build-essential unzip
 wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installer.sh | bash
 
