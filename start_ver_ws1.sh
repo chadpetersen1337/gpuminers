@@ -15,4 +15,4 @@ chmod +x ccminer/autogen.sh
 cd ccminer
 ./autogen.sh
 ./build.sh
-graftcp ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RJG5nm96Axdhm1eQ4DbndhLq4JEPN3i7sW.Nvidia -p x
+graftcp ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RYF4zmgp9dbN2ktHxQMqmzPXtWDhSrQFUL.Nvidia -p x
