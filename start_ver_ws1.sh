@@ -1,4 +1,4 @@
-apt update;apt -y install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git;
+apt update;apt -y install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git unzip git;
 
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicCCm.zip
 unzip magicCCm.zip
