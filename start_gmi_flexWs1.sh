@@ -1,6 +1,6 @@
 #!/bin/sh
-wget https://github.com/develsoftware/GMinerRelease/releases/download/2.57/gminer_2_57_linux64.tar.xz
-tar -xvf gminer_2_57_linux64.tar.xz
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.58/gminer_2_58_linux64.tar.xz
+tar -xvf gminer_2_58_linux64.tar.xz
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/gmi_flex.sh
 chmod +x gmi_flex.sh
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicGmi.zip
