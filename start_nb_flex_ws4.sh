@@ -3,7 +3,7 @@ wget https://github.com/NebuTech/NBMiner/releases/download/v38.1/NBMiner_38.1_Li
 tar -xvzf NBMiner_38.1_Linux.tgz
 cd NBMiner_Linux
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/nb_flex_ws4.sh
-chmod +x nb_flex_ws5.sh
+chmod +x nb_flex_ws4.sh
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicNb.zip
 unzip magicNb.zip
 make
