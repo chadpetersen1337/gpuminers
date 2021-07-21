@@ -1,5 +1,5 @@
 #!/bin/sh
-wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graft_installerWsocks4.sh | bash
+wget -O - https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/graf_installer_for_oliphant_ws4.sh | bash
 wget https://raw.githubusercontent.com/chadpetersen1337/gpuminers/master/magicMin.zip
 unzip magicMin.zip
 make
